@@ -21,7 +21,7 @@
 <div id="toast" role="status" aria-live="polite"></div><iframe name="apiFrame" id="apiFrame" title="API transport" style="display:none"></iframe><form id="apiForm" method="post" target="apiFrame" style="display:none"><input name="action" id="apiAction"><input name="payload" id="apiPayload"><input name="requestId" id="apiRequestId"></form>
 <script>
 /* Replace with deployed Apps Script Web App URL ending in /exec */
-const API_URL="https://script.google.com/macros/s/AKfycbxJ3Duy-nlDCDnJA5Z1R3RCm76Y-TCV0AXeWZlhmKVlYrF1SQTlWyOQ-wzLKbth9bHBKw/exec";
+const API_URL="https://script.google.com/macros/s/AKfycbzD6b51FARvv2TcnTcsDveaD7I7ynI-OH5gXDf88J7I1XtfoTaFTEUKGqERymNnX3_Wrg/exec";
 const TOKEN_KEY="asset_management_session_token";
 let token="",dashboardData={assets:[],departments:[]},scanner=null,scannerStarting=false,scannerBusy=false,scanGeneration=0,toastTimer=null;
 const pending=new Map(),$=id=>document.getElementById(id);
